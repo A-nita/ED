@@ -1,0 +1,5 @@
+int aleatorio(void){
+    srand(time(NULL)); // aleatoriza o valor inicial para a funcao rand(), usando o horario
+    int a = rand() % MAX_NUM; // rand() serve para "criar" numeros aleatorios    
+    return a;
+}
